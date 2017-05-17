@@ -20,6 +20,10 @@ After going through the installation, there are a few more steps so that you can
   <pre>
   cp SMV_HOME/docker/smv/jupyter_notebook_config.py ~/.jupyter/
   </pre>
+  Note that if there is no such direcory as `~/.jupyter`, you can create one by the command
+  <pre>
+  $ jupyter notebook --generate-config
+  </pre>
 
 ## 2. Launch Jupyter Notebook
 **Step 2.1.** Go to the root directory of the sample project.   
